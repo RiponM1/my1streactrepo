@@ -1,0 +1,405 @@
+a {
+  text-decoration: none !important;
+}
+/* nav style started */
+nav {
+  background-color: #1d2126;
+}
+nav ul li {
+  margin: 0 4px;
+}
+nav ul li a {
+  color: #a4aead !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.nav-item .home {
+  color: #23b7a4;
+  border: solid 1.7px #23b7a4;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  border: solid 1.7px #23b7a4;
+  transition: 1s;
+}
+/* nav style end */
+
+/* banner style started  */
+.Banner {
+  background-image: url("../images/BannerBg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  width: 100%;
+}
+
+.BannerContHead h3 {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+.BannerContentText {
+  padding: 20px 0;
+}
+.BannerContentText p {
+  color: #e5e9f1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+.BannerButton {
+  padding: 30px 0;
+}
+.BannerButton button {
+  padding: 10px 30px;
+  border: solid white 1px;
+  background-color: transparent;
+  border-radius: 5px;
+  float: left;
+  margin: 0 5px;
+}
+.BannerButton button a {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.BannerButton button:hover {
+  background-color: #23b7a4;
+  border: none;
+  transition: 0.5s;
+}
+/* banner style end */
+
+/* modest part started  */
+.ModestPart {
+  padding: 80px 0;
+}
+.ModestHead {
+  margin-bottom: 80px;
+}
+.ModestHeadDiv {
+  width: 10px;
+  height: 30px;
+  background-color: #a4aead;
+  float: left;
+}
+.ModestHead h2 {
+  margin-left: 20px;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ModestContent {
+  margin-left: 20px;
+}
+.ModestContent > p {
+  color: #8d8f92;
+  text-align: justify;
+}
+.socialIcons {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.socialIcons a {
+  padding: 20px;
+  background-color: #d0d5d9;
+  border-radius: 5px;
+}
+.socialIcons a i {
+  font-size: 20px;
+}
+.socialIcons a:hover {
+  background-color: #23b7a4;
+  transition: 0.5s;
+  color: white;
+}
+.modestRightContent {
+  position: relative;
+}
+
+.modestRight {
+  position: relative;
+}
+.modestRiponCon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.modestRiponCon p {
+  font-size: 20pt;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: white;
+}
+.modestText {
+  margin-left: 75px;
+  position: absolute;
+  margin-top: -5px;
+}
+.modestText h4 {
+  color: #292f36;
+  text-transform: uppercase;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+}
+.modestText p {
+  color: #8d8f92;
+}
+.modestRight {
+  width: 50px;
+  height: 50px;
+  background-color: #23b7a4;
+  float: left;
+}
+.s2ndrow {
+  margin-top: 110px !important;
+}
+/* modest part end */
+
+/* team part started */
+.team {
+  padding: 80px 0;
+}
+.teamMemPhoto img {
+  width: 100%;
+}
+.teamMemberInfo {
+  padding: 10px 15px;
+  background-color: #e1e6ea;
+}
+.memName h5 {
+  font-weight: 700;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.iconsHover a {
+  padding: 9px;
+  background-color: rgba(29, 33, 38, 0.8);
+  border-radius: 5px;
+}
+.iconsHover a i {
+  font-size: 15px;
+  color: white;
+}
+.teamMemPhoto {
+  position: relative;
+}
+.socialHover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 1s;
+}
+.teamItem:hover .socialHover {
+  opacity: 1;
+}
+.imgoverlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  transition: 1s;
+}
+.teamMemPhoto:hover .imgoverlay {
+  opacity: 1;
+}
+.teamItem:hover .teamMemberInfo {
+  background-color: #1d2126;
+  transition: 1s;
+  color: white;
+}
+/* team part end */
+
+/* lovely work part started */
+.workPart {
+  background-color: #1d2126;
+  padding: 80px 0;
+}
+.workHead {
+  position: relative;
+}
+.workHs {
+  width: 10px;
+  height: 30px;
+  background-color: #8d8f92;
+}
+.wHead h3 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.wHead {
+  position: absolute;
+  top: 6%;
+  left: 20px;
+}
+.workItem {
+  margin-top: 60px;
+}
+.workItemImg {
+  position: relative;
+}
+.ItemImgOverLay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 1s;
+}
+.OverlayIcon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.overlayText {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 15px 20px;
+  background-color: #1d2126c5;
+  margin-top: 50%;
+}
+.workItemImg:hover .ItemImgOverLay {
+  opacity: 1;
+  cursor: pointer;
+}
+.showMorebtn {
+  padding-top: 50px;
+  text-align: center;
+}
+.showMorebtn button {
+  padding: 10px 20px;
+  border: white solid 2px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.showMorebtn button a {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+/* lovely work part end*/
+
+/* What we do part started  */
+.wwd {
+  padding: 50px 0;
+}
+.FirstLine {
+  position: relative;
+}
+.thingLeftwwd {
+  width: 10px;
+  height: 30px;
+  background-color: #8d8f92;
+}
+.whatwedoheadre {
+  position: absolute;
+  top: 0%;
+  left: 20px;
+}
+.whatwedoheadre h3 {
+  text-transform: uppercase;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.wwditem {
+  padding: 90px 0;
+}
+.wwitemimg {
+  text-align: center;
+}
+.wwitemheader {
+  padding: 20px 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+.wwitemcontent {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+/* What we do part end */
+
+/* features part started  */
+.features {
+  background-color: #1d2126;
+  padding: 80px 0;
+}
+.features_head {
+  color: white;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.feature_headdead {
+  position: relative;
+}
+.lefthingfe {
+  width: 10px;
+  height: 30px;
+  background-color: #8d8f92;
+}
+.features_head {
+  position: absolute;
+  top: 0%;
+  left: 20px;
+}
+.featuresItem {
+  margin-top: 50px;
+  color: white;
+}
+.fItemImage img {
+  width: 100%;
+}
+.fItemHead {
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 500;
+}
+.fItemCont {
+  margin-top: 20px;
+  text-align: justify;
+}
+/* features part end  */
+/* stay in touch section started */
+.stay{
+  padding: 80px 0;
+}
+.contactHead{
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.contactPera{
+  margin-top: 30px;
+  text-align: justify;
+}
+.massageBox{
+  padding: 20px;
+  /* background-color: #23b7a4; */
+}
+.form-label{
+  font-family: "Quattrocento Sans", sans-serif;
+  text-transform: uppercase;
+}
+/* stay in touch section end */
+
+/* copyright section started  */
+.copyright{
+  padding: 20px 0;
+  background-color: #1d2126;
+}
+.rights p{
+  color: white;
+  text-align: center;
+}
+/* copyright section end */
